@@ -1,0 +1,57 @@
+.Wrapper{
+    background: rgb(155, 172, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+.logo{
+    padding: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.shapes{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.shape1{
+    padding: 20px 50px;
+    background: #ff2020;
+}
+.shape2{
+    padding: 30px;
+    background: #ff2020;
+}
+.shape3{
+    padding: 20px 50px;
+    background: #ff2020;
+}
+.shape4{
+    padding: 30px;
+    background: #ff2020;
+    border-radius: 50%;
+}
+
+@media (max-width : 740px){
+    .logo{
+        padding: 30px;
+    }
+    .shape1{
+        padding: 10px 25px;
+        background: #ff2020;
+    }
+    .shape2{
+        padding: 10px;
+        background: #ff2020;
+    }
+    .shape3{
+        padding: 10px 25px;
+        background: #ff2020;
+    }
+    .shape4{
+        padding: 10px;
+        background: #ff2020;
+        border-radius: 50%;
+    }
+}

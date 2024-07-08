@@ -1,0 +1,27 @@
+.ThreeContainers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.Rect{
+    width: 700px;
+    height: 200px;
+    background: orange;
+}
+.Circ{
+    padding: 100px;
+    background: orange;
+    border-radius: 50%;
+}
+@media (max-width : 740px){
+    .ThreeContainers{
+        flex-direction: column;
+    }
+    .Rect{
+        width: 300px;
+        height: 200px;
+        background: orange;
+    }
+}
