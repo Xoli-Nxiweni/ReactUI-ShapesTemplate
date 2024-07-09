@@ -1,5 +1,6 @@
 .RectangleContainer{
-    padding: 150px 200px;
-    background: antiquewhite;
+   width: 100%;
+   height: 200px;
+    background: rgb(189, 131, 55);
     border-radius: 25px;
 }

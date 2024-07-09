@@ -37,7 +37,10 @@
     .logo{
         padding: 30px;
     }
-    .shape1{
+    .shapes{
+        flex-direction: column;
+    }
+    /* .shape1{
         padding: 10px 25px;
         background: #ff2020;
     }
@@ -53,5 +56,5 @@
         padding: 10px;
         background: #ff2020;
         border-radius: 50%;
-    }
+    } */
 }
